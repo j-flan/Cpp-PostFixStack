@@ -198,16 +198,6 @@ namespace main_savitch_6B
     template <class NodePtr, class Item>
     NodePtr list_search(NodePtr head_ptr, const Item& target);
 
-    // FORWARD ITERATORS to step through the nodes of a linked list
-    // A node_iterator of can change the underlying linked list through the
-    // * operator, so it may not be used with a const node. The
-    // node_const_iterator cannot change the underlying linked list
-    // through the * operator, so it may be used with a const node.
-    // WARNING:
-    // This classes use std::iterator as its base class;
-    // Older compilers that do not support the std::iterator class can
-    // delete everything after the word iterator in the second line:
-
     
 }
 
